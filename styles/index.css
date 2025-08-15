@@ -44,3 +44,12 @@ body{
     width: 489;
     height: 108;
 }
+.journey{
+    padding-top: 300px;
+}
+
+/*style the footer section*/
+footer{
+    display: flex;
+    justify-content: space-between;
+}
