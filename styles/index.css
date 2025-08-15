@@ -26,6 +26,7 @@
 /*style the navigation section*/
 nav a:link{
     text-decoration: none;
+    font-family: Playfair Display, sans-serif;
     color: #3B3B58;
 }
 /*style the main body*/
@@ -34,6 +35,10 @@ h1{
     font-size: 64px;
     
 }
+h3{
+    font-family: Great Vibes, sans-serif;
+    font-size: 32px;
+}
 body{
     background-image: url(/public/images/hero\ background.jpg);
     background-size: cover;
@@ -41,6 +46,8 @@ body{
     max-width: 100%;
 }
 #opening{
+    font-family: Playfair Display, sans-serif;
+    font-size: 20px;
     width: 489;
     height: 108;
 }
@@ -52,4 +59,5 @@ body{
 footer{
     display: flex;
     justify-content: space-between;
+    font-family: Lora, sans-serif;
 }
