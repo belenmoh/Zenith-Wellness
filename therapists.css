@@ -36,9 +36,48 @@ h1{
 h2{
     margin-top: 32px;
     text-align: center;
-    font-family: Playfair Display, sans-serif;
+    font-family: Platypi, sans-serif;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); 
     font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+/*style the main body*/
+.therapists{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    
+}
+.therapist{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.therapist-image :hover, .therapist-image1 :hover{
+    transform: scale(1.025);
+    box-shadow: 10px 10px 10px rgb(136, 93, 93);
+}
+.therapist-image img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.therapist-image1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 51%;
+}
+.therapist-info{
+    font-family: Platypi, sans-serif;
+}
+.therapist-info p{
+    font-weight: 500;
 }
 /*style the footer section*/
 footer{
