@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 }
+/*style the navigation section*/
 .navigation{
     position: fixed;
     top: 0;
@@ -25,6 +26,7 @@ a {
 a:hover {
     transform: scale(1.25);
 }
+/*style the main body*/
 h1{
     margin-top: 120px;
     font-family: Playfair Display, sans-serif;
@@ -38,4 +40,20 @@ h2{
     text-align: center;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); 
     font-weight: lighter;
+}
+/*style the footer section*/
+footer{
+    margin-top: 64px;
+    background-color:#ffe8e8;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+}
+.socials{
+    display: inline-flex;
+    gap: 20px;
+}
+.facebook,.instagram, .linkedln, .youtube{
+    width: 8%;
+    height: 8%;
 }

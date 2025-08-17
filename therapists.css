@@ -40,3 +40,19 @@ h2{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); 
     font-weight: lighter;
 }
+/*style the footer section*/
+footer{
+    margin-top: 64px;
+    background-color:#ffe8e8;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+}
+.socials{
+    display: inline-flex;
+    gap: 20px;
+}
+.facebook,.instagram, .linkedln, .youtube{
+    width: 8%;
+    height: 8%;
+}
