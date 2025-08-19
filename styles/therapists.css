@@ -58,10 +58,8 @@ h2{
     gap: 30px;
     margin-bottom: 40px;
 }
-
 .therapist-image :hover, .therapist-image1 :hover{
-    transform: scale(1.025);
-    box-shadow: 10px 10px 10px rgb(136, 93, 93);
+    box-shadow: 10px 10px 30px rgb(168, 63, 63);
 }
 .therapist-image img{
     width: 300px;

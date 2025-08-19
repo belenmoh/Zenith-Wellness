@@ -58,6 +58,10 @@ h2{
     object-fit: cover;
     transition: transform 0.3s ease;
 }
+.container img:hover{
+  transform: scale(1.015);
+  box-shadow: 10px 10px 30px rgb(168, 63, 63);
+}
 /*style the principles section*/
 
 h3{
