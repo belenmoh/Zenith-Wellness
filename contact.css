@@ -11,7 +11,6 @@
 }
 
 /*style the navigation section*/
-
 .navigation{
     position: fixed;
     top: 0;
@@ -32,7 +31,6 @@ a:hover {
 }
 
 /*style the main body*/
-
 h1{
     margin-top: 120px;
     font-family: Playfair Display, sans-serif;
@@ -103,11 +101,9 @@ h3{
   font-size: 1.1em;
   transition: background-color 0.3s;
 }
-
 .submit-button:hover {
   background-color: #cc3939; 
 }
-
 /*style the footer section*/
 
 footer{
@@ -125,7 +121,6 @@ footer{
     width: 8%;
     height: 8%;
 }
-
 /*Responsiveness for tablets*/
 
 @media (max-width: 1024px) {
@@ -138,15 +133,7 @@ footer{
   footer {
     grid-template-columns: repeat(2, minmax(50px, 1fr));
   }
-.facebook,
-    .instagram,
-    .linkedln,
-    .youtube {
-      width: 15%;
-      height: 15%;
-    }
 }
-
 /*Responsiveness for mobiles*/
 
 @media (max-width: 600px) {
@@ -167,13 +154,7 @@ footer{
   .socials {
     justify-content: center;
   }
-  .facebook,
-  .instagram,
-  .linkedln,
-  .youtube {
-    width: 20%;
-    height: 20%;
-  }
+  
   .contact-form {
     padding: 15px;
   }
