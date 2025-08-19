@@ -61,17 +61,17 @@ h3{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
 }
 .get-started-button {
-    background-color: #DEABAB; /* Light pink/beige */
-    color: black; /* Dark gray text */
-    border: 1px solid #d0c7c4; /* Subtle border */
-    padding: 12px 24px; /* Increased padding */
-    border-radius: 8px; /* More rounded corners */
-    font-family: 'Arial', sans-serif; /* Example font */
+    background-color: #DEABAB;
+    color: black;
+    border: 1px solid #d0c7c4;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
-    font-weight: 500; /* Medium font weight */
+    font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease; /* Smooth transition */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    transition: background-color 0.2s ease, color 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 .get-started-button:hover {
     background-color: rgb(218, 89, 114);
