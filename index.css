@@ -86,7 +86,7 @@ h3{
     font-size: 500;
     margin-top: 400px;
     margin-bottom: 20px;
-    margin-left: 32px;
+    margin-left: 100px;
 }
 .start-button{margin-left: 100px;
     margin-top: 5px;
@@ -103,6 +103,24 @@ h3{
 }
 .start-button :hover{
     background-color: rgb(218, 89, 114);
+}
+
+.features{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+.feature1, .feature2, .feature3{
+    width: 350px;
+    height: 500px;
+    box-shadow: 10px 10px 30px rgb(194, 148, 148);
+    border-radius: 20px;
+}
+.feature1:hover, .feature2:hover, .feature3:hover{
+    box-shadow: 10px 10px 30px rgb(168, 63, 63);
 }
 /*style the footer section*/
 footer{
