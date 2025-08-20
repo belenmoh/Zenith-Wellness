@@ -40,6 +40,7 @@ h1{
     text-align: center;
     margin-bottom: 20px;
 }
+
 h3{
     font-family: Great Vibes, sans-serif;
     font-size: 40px;
@@ -102,9 +103,16 @@ h3{
 .start-button :hover{
     background-color: rgb(218, 89, 114);
 }
-
+.ft_service{
+    margin-top: 64px;
+    font-family: Playfair Display, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    font-weight: lighter;
+    font-size: 45px;
+}
 .features{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 70px;
     margin-right: 50px;
     display: grid;
